@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Matt's Portfolio
 
 # Acceptance Criteria
@@ -14,3 +15,6 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+=======
+# Matt's Portfolio
+>>>>>>> a17eee2de0702768f6ecfddeac1db87071ef7a26
