@@ -1,5 +1,5 @@
 :root {
-    --color-1: rgba(255, 255, 255, 0.658);
+    --color-1: #dcc178;
     --color-2: green;
     --color-3: cyan;
 }
@@ -36,7 +36,7 @@ header nav {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
 }
@@ -45,7 +45,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 7px yellow;
+    text-shadow: 0 0 7px white;
 }
 
 header a {
@@ -59,6 +59,10 @@ section h2{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    font-size: 55px;
+    border-bottom: 5px var(--color-1) solid;
 }
 
 /* hero styles */
@@ -75,16 +79,6 @@ section h2{
     width: 50%;
 }
 
-#hero-image {
-    /* background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%; */
-}
-
 #hero-name {
     font-size: 100px;
     display:flex;
@@ -92,12 +86,26 @@ section h2{
     justify-content: center;
 }
 
+#hero-image {
+    background-image: url(../images/IMG_7343.jpg);
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    /* background-position: center top; */
+    background-repeat:no-repeat;
+    object-fit: none;
+    height:90vh;
+    border:none;
+    
+}
 /* about */
 #about p {
     display: flex;
-    width: 50vw;
+    width: 40vw;
     margin: 0 auto;
     justify-content: center;
+    font-size: 20px;
 }
 
 /* portfolio */
@@ -105,7 +113,7 @@ section h2{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: ;
+    align-items: center;
 
 }
 #main-project {
