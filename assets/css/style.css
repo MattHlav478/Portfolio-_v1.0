@@ -125,8 +125,9 @@ section h2{
 
 #about p {
     display: flex;
-    margin: 0 auto;
+    flex-wrap: wrap;
     justify-content: center;
+    text-align:center;
     font-size: 20px;
 }
 
@@ -157,7 +158,7 @@ section h2{
     display: flex;
     font-size: 1.6em;
     height: 35vw;
-    width:100%;
+    width:80%;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -170,7 +171,7 @@ section h2{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    width: 80%;
 }
 
 .projects a {
@@ -178,13 +179,14 @@ section h2{
     flex-wrap: wrap;
     font-size: 1.6em;
     height: 100px;
-    width: 25%;
+    width: 35%;
     align-items: center;
     justify-content: center;
     background: var(--color-2);
     border:10px solid var(--color-3);
     border-radius: 25px;
     margin:25px;
+    text-align:center;
 }
 
 
@@ -211,6 +213,14 @@ section h2{
 
 
 
+
+
+
+
+
+
+
+
 /* media queries */
 @media screen and (max-width: 1080px) {
 
@@ -219,21 +229,15 @@ header nav ul li a {
         font-size: 4.5vw;
         text-shadow: 0 0 7px white;
     }
-
-
 }
 
 
 @media screen and (max-width: 768px) {
 .hero {
         margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
         flex-direction: column-reverse;
-        justify-content: space-between;
         width: 100vw;
         height: 600px;
-        align-items: center;
         background-color: var(--color-3);
     }
 #hero-image {
@@ -248,29 +252,20 @@ header nav ul li a {
     align-items: center;
     justify-content: center;
     width: 100vw;
+    height:40px;
     font-size: 9.55vw;
 }
 #about p {
     flex-wrap:wrap;
 }
-}
 
-
-@media screen and (max-width: 575px) {
-#hero-image {
-        background-image: url(../images/IMG_7343.jpg);
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: -416px 60px;
-        height: 65vh;
-        width: 100vw;
-    }
 #project-box {
     display: flex;
     justify-content: center;
     margin: 0 auto;
     width: 100vw;
 }
+
 #all-projects {
     display: flex;
     flex-wrap: wrap;
@@ -308,4 +303,14 @@ header nav ul li a {
     border-radius: 5px;
     margin: 10px auto;
 }
+
+@media screen and (max-width: 575px) {
+#hero-image {
+        background-image: url(../images/IMG_7343.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: -416px 60px;
+        height: 58vh;
+        width: 100vw;
+    }
 }
