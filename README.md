@@ -1,22 +1,9 @@
 # Matt's Portfolio
 
-# Acceptance Criteria
-GIVEN I need to sample a potential employee's previous work
+This is the first iteration of a personal portfolio webpage for myself. As I progress in my knowledge and understanding of web development, I will be updating this website accordingly.
 
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them -->
+The primary function of this website will be to service as a way to showcase my work, for potential clients, employers, or even for friends and family.
 
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
+It is currently written in two languages, HTML and CSS. The webpage currently includes media queries, so that its design can become responsive to different screen sizes.
 
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+The webpage also includes broad contact information, and a way for people to submit a message with their contact information. A future buildout of this page will add functionality to the page (submitted as an open issue in the repository, 5/18).
