@@ -62,15 +62,28 @@
     <section id="contact">
         <div>
             <h2 class="section-title">contact</h2>
-            <div id="contact-info">
-                <p>Get in touch:</p>
-                <address>
-                    Where: Portland, Oregon (usually)
-                    <br/>
-                    How: <a href="mailto:mwhlavaty@gmail.com">mwhlavaty@gmail.com</a>
-                    <br/>
-                    When: You're ready to explore possibility.
-                </address>
+            <div id="all-contact">
+                <div id="contact-info">
+                    <address>
+                        Where: Portland, Oregon (usually)
+                        <br/><br/>
+                        <nobr>How: <a href="mailto:mwhlavaty@gmail.com">mwhlavaty@gmail.com</a></nobr>
+                        <br/>
+                        When: You're ready to explore possibility.
+                    </address>
+                </div>
+                <form class="contact-form">
+                    <label for="contact-name">your name</label>
+                    <input type="text" id="contact-name" placeholder="your name" />
+    
+                    <label for="contact-email">your email</label>
+                    <input type="text" id="contact-email" placeholder="your email" />
+    
+                    <label for="contact-message">message</label>
+                    <textarea id="contact-message" placeholder="message"></textarea>
+    
+                    <button type="submit">submit</button>
+                </form>
             </div>
         </div>
     </section>
@@ -78,10 +91,12 @@
     <!-- Footer -->
     <footer class="footer">
         <div>
-            <h3>made and maintained by Matt Hlavaty</h3>
+            <h3>made by Matt Hlavaty</h3>
         </div>
         <div>
-            <a href="https://github.com/Hephaestus01"></a>
+             <a href="https://github.com/Hephaestus01">
+                <img src="./assets/images/github-logo.png" style="width:50px; height:50px;">
+             </a>
         </div>
     </footer>
 </body>
