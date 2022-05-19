@@ -1,3 +1,4 @@
+/* global */
 :root {
     --color-1: #dcc178;
     --color-2: #334f6c;
@@ -47,6 +48,9 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 2.5vw;
+}
+
+header nav ul li a:hover {
     text-shadow: 0 0 7px white;
 }
 
@@ -272,7 +276,6 @@ section h2{
 header nav ul li a {
         font-weight: lighter;
         font-size: 4.5vw;
-        text-shadow: 0 0 7px white;
     }
 }
 
