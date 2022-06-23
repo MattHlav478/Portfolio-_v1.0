@@ -180,6 +180,20 @@ section h2{
     right: 5px;
 }
 
+#second-project {
+    background-image: url(../images/project-Cocktail.png);
+    background-size: cover;
+    display: flex;
+    font-size: 1.6em;
+    height: 35vw;
+    width:80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    /* background: var(--color-2); */
+    border: 10px solid var(--color-3);
+    border-radius: 25px;
+}
 .projects {
     display:flex;
     flex-wrap: wrap;
